@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Caprillito | El pequeño elefante</title>
+	<meta name="description"
+		content="An experimental slideshow with an inclined look with three slide previews and a content view on click." />
+	<meta name="keywords" content="slideshow, javascript, tweenmax, rotation, animation, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+</head>
+
+<body class="loading">
+	<main>
+		<div class="content">
+			<article class="content__item">
+				<div class="img-wrap img-wrap--content">
+					<div class="img img--content" style="background-image: url(img/elefante.jpg);"></div>
+				</div>
+				<header class="content__item-header">
+					<span class="content__item-header-meta">Qué elegante</span>
+					<h2 class="content__item-header-title">El pequeño elefante</h2>
+				</header>
+				<div class="content__item-copy">
+					<p class="content__item-copy-text">
+						Había una vez un pequeño elefante muy elegante.
+						Todes se asombraban ante lo elegante del pequeño elefante.
+						Caprillito, el pequeño elefante, no tenía amigos,
+						ya que lo envidiaban por su gran elegancia.
+						Caprillito no quería ser elegante, Caprillito quería amigos unu
+					</p>
+					<a href="https://www.elespectador.com/cromos/estilo-de-vida/por-que-mi-perro-me-sigue-cuando-voy-al-bano/" class="content__item-copy-more">no sé a qué lleva esto</a>
+				</div>
+			</article>
+			<article class="content__item">
+				<div class="img-wrap img-wrap--content">
+					<div class="img img--content" style="background-image: url(img/completo-chileno.jpg);"></div>
+				</div>
+				<header class="content__item-header">
+					<span class="content__item-header-meta">Completos</span>
+					<h2 class="content__item-header-title">Con o sin Chucrut?</h2>
+				</header>
+				<div class="content__item-copy">
+					<p class="content__item-copy-text">
+						Hay gente muy extraña en este mundo a la que no le gusta el chucrut, 
+						el tema no es su sabor, es su concepto. El chuchut ha unido a países,
+						ha unido a las personas en armonía. Se preguntarán el porqué de esto,
+						pues es simple, Chocolate Channel, un canal de youtube hizo unos videos
+						(hermosos videos) en los que se veían historias al respecto. Desde ese día,
+						los completos deben llevar chucrut.
+					</p>
+					<a href="https://www.youtube.com/watch?v=6iqj6pdGNb0" class="content__item-copy-more">no sé a qué lleva esto </a>
+				</div>
+			</article>
+			<article class="content__item">
+				<div class="img-wrap img-wrap--content">
+					<div class="img img--content" style="background-image: url(img/que-es-la-tristeza.jpg);"></div>
+				</div>
+				<header class="content__item-header">
+					<span class="content__item-header-meta">Tercera historia</span>
+					<h2 class="content__item-header-title">Perdiendo el tiempo</h2>
+				</header>
+				<div class="content__item-copy">
+					<p class="content__item-copy-text">
+						Programar puede ser muy divertido y útil, siemrpe y cuando sea bien
+						utilizado. Lamentablemente este no es el caso. No porque esta tarea sea mala,
+						sino porque me complico con estupideces y estoy que exploto, pero igual sé
+						que la culpa fue mía porque dejé el trabajo para después por estar sad unos días.
+						Ahora me pregunto ¿El profesor lee estas cosas?
+					</p>
+					<a href="https://hipertextual.com/2017/08/recomendaciones-paginas-aleatorias" class="content__item-copy-more">no sé a qué lleva esto</a>
+				</div>
+			</article>
+			<article class="content__item">
+				<div class="img-wrap img-wrap--content">
+					<div class="img img--content" style="background-image: url(img/Jack.jpeg);"></div>
+				</div>
+				<header class="content__item-header">
+					<span class="content__item-header-meta">Última historia</span>
+					<h2 class="content__item-header-title">¿Es el fin?</h2>
+				</header>
+				<div class="content__item-copy">
+					<p class="content__item-copy-text">
+						Tengo que confesarlo, el pequeño elefante elgante fue inspirado en
+						mi perro Jack, es guatón, lo quiero mucho y es muy elegante. Se preguntará
+						profe ¿qué tiene de elegante ese perro? y la respuesta es: todo. Desde su caminar,
+						hasta como come. Si usted lo viera subir por las escaleras sin dudarlo diría:
+						"que perro más elegante va por ahí".
+					</p>
+					<a href="https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2021/03/27/los-sentidos-homenajes-que-surgieron-en-redes-a-3-anos-de-muerte-de-transformista-katiuska-molotov.shtml" class="content__item-copy-more">no sé a qué lleva esto</a>
+				</div>
+			</article>
+		</div>
+		<div class="revealer">
+			<div class="revealer__inner"></div>
+		</div>
+		<div class="grid grid--slideshow">
+			<figure class="grid__item grid__item--slide">
+				<span class="number">01</span>
+				<div class="img-wrap">
+					<div class="img" style="background-image: url(img/elefante.jpg);"></div>
+				</div>
+				<figcaption class="caption">Qué elegante</figcaption>
+			</figure>
+			<figure class="grid__item grid__item--slide">
+				<span class="number">02</span>
+				<div class="img-wrap">
+					<div class="img" style="background-image: url(img/completo-chileno.jpg);"></div>
+				</div>
+				<figcaption class="caption">Completos</figcaption>
+			</figure>
+			<figure class="grid__item grid__item--slide">
+				<span class="number">03</span>
+				<div class="img-wrap">
+					<div class="img" style="background-image: url(img/que-es-la-tristeza.jpg);"></div>
+				</div>
+				<figcaption class="caption">Tercera historia</figcaption>
+			</figure>
+			<figure class="grid__item grid__item--slide">
+				<span class="number">04</span>
+				<div class="img-wrap">
+					<div class="img" style="background-image: url(img/Jack.jpeg);"></div>
+				</div>
+				<figcaption class="caption">Última historia</figcaption>
+			</figure>
+			<div class="titles-wrap">
+				<div class="grid grid--titles">
+					<h3 class="grid__item grid__item--title">uwu</h3>
+					<h3 class="grid__item grid__item--title">owo</h3>
+					<h3 class="grid__item grid__item--title">unu</h3>
+					<h3 class="grid__item grid__item--title">ono</h3>
+				</div>
+			</div>
+			<div class="grid grid--interaction">
+				<div class="grid__item grid__item--cursor grid__item--left"></div>
+				<div class="grid__item grid__item--cursor grid__item--center"></div>
+				<div class="grid__item grid__item--cursor grid__item--right"></div>
+			</div>
+		</div>
+		<div class="frame">
+			<div class="frame__title-wrap">
+				<h1 class="frame__title">Historias que nadie debería leer</h1>
+				<div class="frame__links">
+					<a href="https://tympanus.net/Development/ExplodingObjects/">Previous Demo</a>
+					<a href="https://tympanus.net/codrops/?p=39863">Article</a>
+					<a href="https://github.com/codrops/CrossroadsSlideshow/">GitHub</a>
+				</div>
+				<div class="frame__mode" role="radiogroup">
+					<div class="frame__mode-item frame__mode-item--dark">
+						<input id="mode-1" type="radio" name="mode" class="frame__mode-input"></input>
+						<label class="frame__mode-label" for="mode-1">Dark mode</label>
+					</div>
+					<div class="frame__mode-item">
+						<input id="mode-2" type="radio" name="mode" class="frame__mode-input" checked></input>
+						<label class="frame__mode-label frame__mode-label--light" for="mode-2">Light mode</label>
+					</div>
+				</div>
+			</div>
+		</div><!-- /frame -->
+	</main>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/charming.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/demo.js"></script>
+</body>
+
+</html>

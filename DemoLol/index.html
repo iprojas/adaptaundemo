@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Crossroads Slideshow | Codrops</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<meta name="description" content="An experimental slideshow with an inclined look with three slide previews and a content view on click." />
+		<meta name="keywords" content="slideshow, javascript, tweenmax, rotation, animation, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="content">
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/Faker.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Lee Sang-Hyeok, Korea, 25 años</span>
+						<h2 class="content__item-header-title">Faker</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+						El primer jugador de este listado de los mejores jugadores de la historia de League of Legends tiene tres mundiales a su espalda y sigue compitiendo hasta el día de hoy. Conocido como "The Unkillable Demon King" ha clasificado a su quinto mundial este año, que demuestra las ansias de victoria que sigue teniendo y lo vigente que sigue como uno de los mejores jugadores del mundo en la actualidad.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/Uzi.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Jian Zihao, China, 24 años</span>
+						<h2 class="content__item-header-title">Uzi</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+						El segundo jugador de este listado es Uzi, el carrilero inferior tuvo su pick con la victoria conseguida en el Mid Season Invitational de 2018. Sin embargo, las lesiones impidieron que pudiera seguir desarrollando su talento, hoy en día se encuentra retirado pero sigue siendo considerado la fuente de inspiración de varios jugadores a nivel mundial.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/Mata.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Cho Se-Hyeong, Korea, 27 años</span>
+						<h2 class="content__item-header-title">Mata</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+						El tercer mejor jugador es un soporte y el más veterano de este listado, ganador de varios titulos de la liga domestica coreana e incluso un mundial en 2014. Hoy en día se encuentra retirado y dedicado a su nuevo rol como entrenador, aun asi sigue siendo recordado como uno de los mejores en su rol y un jugador que impuso nuevas mecanicas en los primeros días del League of Legends.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/Perkz.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Luka Perković, Croacia, 22 años</span>
+						<h2 class="content__item-header-title">Perkz</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+						El cuarto jugador de este listado es el unico que proviene de Occidente, gano un Mid Season invitational en 2019 y ha sido subcampeon del mundo. Su historia es la más compleja, teniendo que hacer cambio de roles e incluso teniendo que dar el salto de Europa a Norteamerica para seguir jugando en su rol favorito como midlaner. Su historia es la de pasión y constancia con el juego, en la cual aun faltan capitulos por escribirse.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+			</div>
+			<div class="revealer">
+				<div class="revealer__inner"></div>
+			</div>
+			<div class="grid grid--slideshow">
+				<figure class="grid__item grid__item--slide">
+					<span class="number">01</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/Faker.jpg);"></div>
+					</div>
+					<figcaption class="caption">Lee Sang-Hyeok, Korea, 25 años</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">02</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/Uzi.jpg);"></div>
+					</div>
+					<figcaption class="caption">Jian Zihao, China, 24 años</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">03</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/Mata.jpg);"></div>
+					</div>
+					<figcaption class="caption">Cho Se-Hyeong, Korea, 27 años</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">04</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/Perkz.jpg);"></div>
+					</div>
+					<figcaption class="caption">Luka Perković, Croacia, 22 años</figcaption>
+				</figure>
+				<div class="titles-wrap">	
+					<div class="grid grid--titles">
+						<h3 class="grid__item grid__item--title">Faker</h3>
+						<h3 class="grid__item grid__item--title">Uzi</h3>
+						<h3 class="grid__item grid__item--title">Mata</h3>
+						<h3 class="grid__item grid__item--title">Perkz</h3>
+					</div>
+				</div>
+				<div class="grid grid--interaction">
+					<div class="grid__item grid__item--cursor grid__item--left"></div>
+					<div class="grid__item grid__item--cursor grid__item--center"></div>
+					<div class="grid__item grid__item--cursor grid__item--right"></div>
+				</div>
+			</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Crossroads Slideshow</h1>
+					<div class="frame__links">
+						<a href="https://tympanus.net/Development/ExplodingObjects/">Previous Demo</a>
+						<a href="https://tympanus.net/codrops/?p=39863">Article</a>
+						<a href="https://github.com/codrops/CrossroadsSlideshow/">GitHub</a>
+					</div>
+					<div class="frame__mode" role="radiogroup">
+						<div class="frame__mode-item frame__mode-item--dark">
+							<input id="mode-1" type="radio" name="mode" class="frame__mode-input"></input>
+							<label class="frame__mode-label" for="mode-1">Dark mode</label>
+						</div>
+						<div class="frame__mode-item">
+							<input id="mode-2" type="radio" name="mode" class="frame__mode-input" checked></input>
+							<label class="frame__mode-label frame__mode-label--light" for="mode-2">Light mode</label>
+						</div>
+					</div>
+				</div>
+			</div><!-- /frame -->
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>

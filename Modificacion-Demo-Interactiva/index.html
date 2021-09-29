@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Modificación Demo Interactiva</title>
+		<meta name="description" content="An experimental slideshow with an inclined look with three slide previews and a content view on click." />
+		<meta name="keywords" content="slideshow, javascript, tweenmax, rotation, animation, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="content">
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(https://media.vogue.es/photos/613fe6d358d107ecf45b9afd/master/w_1600%2Cc_limit/GettyImages-1340138470.jpg
+						);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Vestido por: Bode</span>
+						<h2 class="content__item-header-title">	Lorde</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							La revista Vogue comentó el look de Lorde:"Parece contener ciertas referencias al estilo indio americano (...) pero también al vestuario de una líder de culto en pleno ritual".
+						</p>
+					
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(https://media.vogue.mx/photos/613fd7880a3cefa1163d2e63/2:3/w_2560%2Cc_limit/GettyImages-1340128897.jpg
+						);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Vestido por: Oscar de la Renta</span>
+						<h2 class="content__item-header-title">Billie Eilish</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							Billie Eilish comenta:"Tenía muchas ganas de sorprender a todos con un look que nunca hubiera mostrado antes". Llamando la atención de todos los espectadores, Billie se presentó con un cambio de estilo rotundo. Vistió un atuendo tipo princesa de color nude inspirado en Marilyn Monroe y Grace Kelly.
+						</p>
+					
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(https://mx.hola.com/imagenes/moda/2021091539979/kendall-jenner-vestido-rojo-givenchy-after-party-met-gala-look/0-183-165/en-la-red-carpet-a.jpg
+						);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Vestido por: Givenchy</span>
+						<h2 class="content__item-header-title">Kendall Jenner</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							El look de Kendall hace referencia a Audrey Hepburn, quien con su vestido en la película ‘My Fair Lady’ desencadenó la creación con cristales, transparencias y joyas que la modelo abrazó con vehemencia por la alfombra roja del evento.
+						</p>
+						
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(https://mx.hola.com/imagenes/moda/2021091339945/met-gala-2021-looks-alfombra-roja/0-183-11/jlomet-a.jpg
+						);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Vestido por: Ralph Lauren</span>
+						<h2 class="content__item-header-title">Jennifer Lopez</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+						Jennifer Lopez uso un vestido de cuero inspirado en el estilo "cowboy" que nos recuerda a los año 2000 con artistas como Madonna o Britney Spears. Como accesorio llevaba un sombrero vaquero, un collar de medallas grandes ademá de un choker y un cinturón a la cadera.
+						</p>
+					</div>
+				</article>
+			</div>
+			<div class="revealer">
+				<div class="revealer__inner"></div>
+			</div>
+			<div class="grid grid--slideshow">
+				<figure class="grid__item grid__item--slide">
+					<span class="number">01</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(https://media.vogue.es/photos/613fe6d358d107ecf45b9afd/master/w_1600%2Cc_limit/GettyImages-1340138470.jpg
+						);"></div>
+					</div>
+					<figcaption class="caption">Marca: Bode</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">02</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(https://media.vogue.mx/photos/613fd7880a3cefa1163d2e63/2:3/w_2560%2Cc_limit/GettyImages-1340128897.jpg
+						);"></div>
+					</div>
+					<figcaption class="caption">Marca: Oscar de la Renta</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">03</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(https://mx.hola.com/imagenes/moda/2021091539979/kendall-jenner-vestido-rojo-givenchy-after-party-met-gala-look/0-183-165/en-la-red-carpet-a.jpg
+						);"></div>
+					</div>
+					<figcaption class="caption">Marca: Givenchy</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">04</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(https://mx.hola.com/imagenes/moda/2021091339945/met-gala-2021-looks-alfombra-roja/0-183-11/jlomet-a.jpg
+						);"></div>
+					</div>
+					<figcaption class="caption">Marca: Ralph Lauren</figcaption>
+				</figure>
+				<div class="titles-wrap">
+					<div class="grid grid--titles">
+						<h3 class="grid__item grid__item--title">Lorde</h3>
+						<h3 class="grid__item grid__item--title">Billie </h3>
+						<h3 class="grid__item grid__item--title">Kendall </h3>
+						<h3 class="grid__item grid__item--title">J.Lo</h3>
+					</div>
+				</div>
+				<div class="grid grid--interaction">
+					<div class="grid__item grid__item--cursor grid__item--left"></div>
+					<div class="grid__item grid__item--cursor grid__item--center"></div>
+					<div class="grid__item grid__item--cursor grid__item--right"></div>
+				</div>
+			</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Looks favoritos de la Met Gala 2021</h1>
+					
+				</div>
+			</div><!-- /frame -->
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
